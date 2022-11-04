@@ -1,0 +1,56 @@
+\newpage
+\section{Określenie wymagań szczegółowych}		%2
+%Dokładne określenie wymagań aplikacji (cel, zakres, dane wejściowe) – np. opisać przyciski, czujniki, wygląd layautu, wyświetlenie okienek. Opisać zachowanie aplikacji – co po kliknięciu, zdarzenia automatyczne. Opisać możliwość dalszego rozwoju oprogramowania. Opisać zachowania aplikacji w niepożądanych sytuacjach.
+
+
+1.Logowanie - będzie się odbywać dwuetapowo: 
+\\ \\
+Etap I: Logowanie do firmy - bez znaczenia czy jest się przedsiębiorcą czy pracownikiem trzeba będzie podać NIP firmy, a także hasło ustalone z góry przez przedsiębiorce po dogadaniu się z obsługą klienta twórców aplikacji. W przypadku nieznania hasła do Firmy kontaktujemy się z szefem lub administratorem aplikacji w firmie.
+\\ \\ 
+Etap II: Logowanie użytkownika: 
+    \\ - Nie zależnie od tego czy to jest pracownik czy szef czy osoba z uprawnieniami administratorskimi każdy loguje się z tego miejsca 
+    \\ - Jeśli użytkownik nie zna hasła do swojego konta zostaje wygenerowany kod odzyskiwania hasła wysłany na e-mail
+    \\ - Użytkowników do firmy może tworzyć tylko osoba z uprawnieniami administratorskimi(Szef, osoba przełożona)
+\\ \\ \\
+Po zalogowaniu się użytkownik zostaje na stronę główną aplikacji
+\\ 
+
+2.Pulpit \\
+    - Kalendarz(grafik) - dany dzień rozpisani są wszyscy pracownicy z przedziałem od godziny 6:00 do 22:00 
+    \\- Każdy pracownik ma wpisany blok na dany okres czasu, w którym zapisane są informacje o danym zadaniu, usłudze, kliencie, czasie, lokalizacji(jesli jest po za biurem - możliwa implementacja GPS) 
+    \\ - Po za pracownikami, w grafik można wpisać zasoby - rzeczy ważne na tym samym poziomie co pracownicy, których jest wykorzystywany przez pracownikow
+    \\ W grafiku można edytować informacje o transakcji usługi, czy została ona opłacona bądź nie. Byłaby też osoba karta dotycząca tego tematu. Nieopłaconej usługi nie możnaby było wystawić Faktury/Paragonu, a opłacona po jej wybraniu(dane do FV Vat) przesłane by były do Pracownika sekretariatu
+    \\ 
+    
+3. Dodawanie klienta i usługi: 
+    \\- Dodanie klienta do systemu(danych klienta)
+    \\- Z biegiem czasu Call-Center czyli zbieranie informacji o usługach/profuktach które bierze z firmy najczęściej \\ 
+    
+4.Funkcje Administratorskie \\ 
+ - Dodaje zadania pracownikom \\
+ - Zarządza zadaniami w firmie \\
+ - Zarządza klientami w firmie \\
+ - Dodaje i usuwa pracowników w firmie
+ - Dodaje i usuwa klientów i usługi 
+\\ \\ 
+5.Funkcje  standardowego pracownika\\
+- Wprowadza opis w grafiku wykonanjej usługi \\
+- Tworzy tymczasową zmianę w grafiku która jest zatwierdzana przez Admnistrację(Wypadnięcie jakiejś usługi, niemożność dyspozycji, informacja o wykonanej usłudze)\\
+- Monitoruje głównie grafik i stosuje sie do niego \\
+- Obsługuje klientów(zaznacza czy usługa została zapłacona czy też nie)
+\\ \\
+6.Komunikator firmowy: \\ 
+- Prosty komunikator umożliwiający korenspondencje między praocwnikami i administracją. Umożliwia tworzenie prywatnych grup w celu konserwacji między większą liczbą osób - np. tworzymy grupę o nazwie Tankowanie, gdzie wysylamy zdjęcia faktur za paliwo.
+- W miarę możliwości takie wiadomości z grup będą raz w tygodniu archiwizowane
+
+
+
+
+
+
+
+
+
+
+
+
